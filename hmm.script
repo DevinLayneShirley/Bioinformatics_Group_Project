@@ -1,0 +1,21 @@
+##actual unix code #make sure muscle function files are in working directory
+
+#muscle alignment
+for proteins in protein1 protein2 protein3 protein4 protein5 protein6
+do
+    /muscle -in $proteins -out $proteins.align
+done
+#build protein model
+for align in protein1.align protein2.align protein3.align protein4.align protein5.align protein6.align
+do
+    /hmmbuild $align.ref $align
+done
+#search rnaseq files for protein models
+for rnaseq in control1.protein control2.protein obese1.protein obese2.protein
+do
+    for models in protein1.align.hmm protein2.align.hmm protein3.align.hmm protein4.align.hmm protein5.align.hmm protein6.align.hmm
+    do
+        /hmmsearch --tblout $rnaseq.$model.hits $rnaseq $models
+        cat $rnaseq.$model.hits >> $rnaseq.hits.table
+    done
+done
