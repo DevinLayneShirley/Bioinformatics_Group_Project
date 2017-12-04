@@ -17,8 +17,8 @@ C2data.columns=['Count','sample','Model']
 O1data.columns=['Count','sample','Model']
 O2data.columns=['Count','sample','Model']
 
-ggplot(C1data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Control1 Transcript Counts')
-ggplot(C2data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Control2 Transcript Counts')
-ggplot(O1data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Obese1 Transcript Counts')
-ggplot(O2data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Obese2 Transcript Counts')
+ggplot(C1data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Control1 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(C2data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Control2 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(O1data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Obese1 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(O2data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Obese2 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
 
