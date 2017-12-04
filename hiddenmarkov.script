@@ -1,0 +1,19 @@
+#muscle aligment
+for proteins in protein_*.fasta
+do
+    ./muscle -in $proteins -out $proteins.align
+done
+#build protein model
+for align in protein_*.fasta.align
+do
+    ./hmmbuild $align.ref $align
+done
+#search rnaseq files for protein models
+for rnaseq in *.protein
+do
+    for models in protein_*.fasta.align.hmm
+    do
+        ./hmmsearch --tblout $rnaseq.$model.hits $rnaseq $models
+        cat $rnaseq.$model.hits >> $rnaseq.hits.table
+    done
+done
