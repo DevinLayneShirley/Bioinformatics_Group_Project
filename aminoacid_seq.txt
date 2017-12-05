@@ -2,7 +2,7 @@ import numpy
 import pandas
 import re
 from sys import argv
-script, filename = argv
+# script, filename = argv
 from itertools import takewhile
 
 infile1 = open("control1.fasta","r")
@@ -15,15 +15,14 @@ outfile2 = open("control2_protein","w")
 outfile3 = open("obese1_protein","w")
 outfile3 = open("obese2_protein","w")
 
-def translate_dna(sequence, codonmap, stop_codons = ('TAA', 'TGA', 'TAG')):
-    trimmed_sequence = sequence[start:]
+def translate_dna(sequence, codonmap):
 
-    codons = [trimmed_sequence[i:i+3] for i in range(0, len(trimmed_sequence), 3)]
+    codons = [sequence[i:i+3] for i in range(0, len(sequence), 3)]
     print(len(codons))
-    print(trimmed_sequence)
+    print(sequence)
     print(codons)
 
-    coding_sequence  =  takewhile(lambda x: x not in stop_codons and len(x) == 3 , codons)
+    coding_sequence  =  takewhile(lambda x: len(x) == 3 , codons)
 
     protein_sequence = ''.join([codonmap[codon] for codon in coding_sequence])
 
@@ -33,26 +32,30 @@ def translate_dna(sequence, codonmap, stop_codons = ('TAA', 'TGA', 'TAG')):
 for line in infile1:
 	line = line.strip()
 	if line[0] == ">":
+	    outfile1.write(line + "\n")
 	else:
-		outfile1.write(translate_dna($line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG') + "\n")
-		
+		outfile1.write(translate_dna(line, codonmap) + "\n")
+
 for line in infile2:
-	line = line.strip()
+    line = line.strip()
 	if line[0] == ">":
+	    done
 	else:
-		outfile2.write(translate_dna($line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG') + "\n")
+		outfile2.write(translate_dna(line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG')) + "\n")
 
 for line in infile3:
 	line = line.strip()
 	if line[0] == ">":
+	    done
 	else:
-		outfile3.write(translate_dna($line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG') + "\n")
+		outfile3.write(translate_dna(line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG')) + "\n")
 		
 for line in infile4:
 	line = line.strip()
 	if line[0] == ">":
+	    done
 	else:
-		outfile4.write(translate_dna($line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG') + "\n")
+		outfile4.write(translate_dna(line, codonmap, stop_codons = ('TAA', 'TGA', 'TAG')) + "\n")
 	
 	
 	
