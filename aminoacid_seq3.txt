@@ -1,0 +1,83 @@
+import numpy
+import pandas
+import re
+from sys import argv
+from itertools import takewhile
+
+infile1 = open("control1.fasta","r")
+infile2 = open("control2.fasta","r")
+infile3 = open("obese1.fasta","r")
+infile4 = open("obese2.fasta","r")
+codonmap = open("codonmap.txt","r")
+outfile1 = open("control1_protein","w")
+outfile2 = open("control2_protein","w")
+outfile3 = open("obese1_protein","w")
+outfile3 = open("obese2_protein","w")
+
+d = {}
+for line in codonmap:
+    (val,key) = line.split()
+    d[str(key)] = val
+
+def translateCodon (x):
+    if x in d:
+        return d[x]
+
+def splitCodons(sequence):
+    result = []
+    for i in range(0, len(sequence), 3):
+        result.append(sequence[i:i+3])
+    return result
+    
+def translateSequence(sequence):
+    codons = splitCodons(sequence)
+    aaString = ''
+    for codon in codons:
+        aaString += translateCodon(codon)
+    return aaString
+
+r1=r"([ATGC]{3})*?(ATG)"
+#r2=r"(TAA|TAG|TGA)"
+
+for line in infile1:
+	line = line.strip()
+	if line[0] == ">":
+	    outfile1.write(line + "\n")
+	else:
+	    start = re.sub(r1,r"M",line)
+	    #strip_character = "r2"
+	    #strip_character.join(line.split(strip_character)[:1])
+	    outfile1.write(start + "\n")
+	        else:
+	            outfile1.write(translateSequence(line) + "\n")
+	    
+for line in infile2:
+    line = line.strip()
+    if line[0] == ">":
+	    done
+    else:
+		outfile2.write(translateSequence(line) + "\n")
+
+for line in infile3:
+	line = line.strip()
+	if line[0] == ">":
+	    done
+	else:
+		outfile3.write(translateSequence(line) + "\n")
+		
+for line in infile4:
+	line = line.strip()
+	if line[0] == ">":
+	    done
+	else:
+	    outfile4.write(translateSequence(line) + "\n")
+	
+infile1.close()
+infile2.close()
+infile3.close()
+infile4.close()
+outfile1.close()
+outfile2.close()
+outfile3.close()
+outfile4.close()
+codonmap.close()
