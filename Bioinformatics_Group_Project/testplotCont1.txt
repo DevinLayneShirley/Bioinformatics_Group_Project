@@ -1,0 +1,6 @@
+10	control1	Lhx2
+84	control1	Gsta2
+2	control1	Slc7a12
+96	control1	Ptpn5
+5	control1	Atp12a
+100	control1	Synpr
