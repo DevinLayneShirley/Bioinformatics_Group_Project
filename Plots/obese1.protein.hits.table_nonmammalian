@@ -1,0 +1,305 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rf                   -          protein1.fasta       -            7.3e-96  314.9   0.3   8.4e-96  314.7   0.3   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein1.fasta       -            7.3e-96  314.9   0.3   8.4e-96  314.7   0.3   1.0   1   0   0   1   1   1   1 1 Obese1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      protein1.fasta.align.hmm
+# Target file:     obese1.protein
+# Option settings: ./hmmsearch --tblout obese1.protein.hits protein1.fasta.align.hmm obese1.protein 
+# Current dir:     /home/devin/groupProject/Bioinformatics_Group_Project/Nonmammalian_HMMs
+# Date:            Mon Dec  4 15:16:28 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+rf                   -          protein2.fasta       -            1.8e-60  199.7  22.2   1.8e-60  199.7  22.2   1.4   2   0   0   2   2   2   1 1 Obese1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      protein2.fasta.align.hmm
+# Target file:     obese1.protein
+# Option settings: ./hmmsearch --tblout obese1.protein.hits protein2.fasta.align.hmm obese1.protein 
+# Current dir:     /home/devin/groupProject/Bioinformatics_Group_Project/Nonmammalian_HMMs
+# Date:            Mon Dec  4 15:16:29 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein3.fasta       -             4e-252  831.8   0.0  5.4e-252  831.4   0.0   1.1   1   0   0   1   1   1   1 1 Obese1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      protein3.fasta.align.hmm
+# Target file:     obese1.protein
+# Option settings: ./hmmsearch --tblout obese1.protein.hits protein3.fasta.align.hmm obese1.protein 
+# Current dir:     /home/devin/groupProject/Bioinformatics_Group_Project/Nonmammalian_HMMs
+# Date:            Mon Dec  4 15:16:30 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein4.fasta       -                  0 1607.9   6.0         0 1607.6   6.0   1.0   1   0   0   1   1   1   1 1 Obese1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      protein4.fasta.align.hmm
+# Target file:     obese1.protein
+# Option settings: ./hmmsearch --tblout obese1.protein.hits protein4.fasta.align.hmm obese1.protein 
+# Current dir:     /home/devin/groupProject/Bioinformatics_Group_Project/Nonmammalian_HMMs
+# Date:            Mon Dec  4 15:16:32 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein5.fasta       -           3.5e-264  870.5   3.8  4.7e-264  870.1   3.8   1.1   1   0   0   1   1   1   1 1 Obese1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      protein5.fasta.align.hmm
+# Target file:     obese1.protein
+# Option settings: ./hmmsearch --tblout obese1.protein.hits protein5.fasta.align.hmm obese1.protein 
+# Current dir:     /home/devin/groupProject/Bioinformatics_Group_Project/Nonmammalian_HMMs
+# Date:            Mon Dec  4 15:16:33 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+rf                   -          protein6.fasta       -           1.6e-150  494.5   4.7  2.9e-150  493.7   4.7   1.4   1   0   0   1   1   1   1 1 Obese1
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      protein6.fasta.align.hmm
+# Target file:     obese1.protein
+# Option settings: ./hmmsearch --tblout obese1.protein.hits protein6.fasta.align.hmm obese1.protein 
+# Current dir:     /home/devin/groupProject/Bioinformatics_Group_Project/Nonmammalian_HMMs
+# Date:            Mon Dec  4 15:16:34 2017
+# [ok]

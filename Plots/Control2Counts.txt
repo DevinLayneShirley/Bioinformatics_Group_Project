@@ -1,0 +1,12 @@
+20 rf protein1.fasta
+20 rf protein2.fasta
+20 rf protein3.fasta
+20 rf protein4.fasta
+20 rf protein5.fasta
+20 rf protein6.fasta
+20 rf protein1.fasta
+20 rf protein2.fasta
+20 rf protein3.fasta
+20 rf protein4.fasta
+20 rf protein5.fasta
+20 rf protein6.fasta
