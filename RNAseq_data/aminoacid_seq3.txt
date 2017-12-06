@@ -31,7 +31,6 @@ def splitCodons(sequence):
     
 def translateSequence(sequence):
     codons = splitCodons(sequence)
-    print codons
     aaString = 'M'
     for codon in codons:
         if translateCodon(codon) == 'Stop':
@@ -40,18 +39,16 @@ def translateSequence(sequence):
             aaString += translateCodon(codon)
     return aaString
 
-r1=r"ATG([ATCG]{3,3})+?"
-#r2=r"(TAA|TAG|TGA)"
+r1=r"([ATCG]{3,3})+?(ATG)"
 
 for line in infile1:
 	line = line.strip()
 	if line[0] == ">":
 	    outfile1.write(line + "\n")
 	else:
-	    start = re.sub(r1,"M",line,count=1)
-	    short = re.sub(r'.*M','M',start)
-	    print short
-        aminoacids = translateSequence(short)
+	    start = re.sub(r1,"ATG",line,count=1)
+	    #short = re.sub(r'.*M','M',start)
+	    aminoacids = translateSequence(start)
         outfile1.write(aminoacids + "\n")
 
 for line in infile2:
@@ -59,9 +56,9 @@ for line in infile2:
 	if line[0] == ">":
 	    outfile2.write(line + "\n")
 	else:
-	    start = re.sub(r1,"M",line,count=1)
-	    short = re.sub(r'.*M','M',start)
-        aminoacids = translateSequence(short)
+	    start = re.sub(r1,"ATG",line,count=1)
+	    #short = re.sub(r'.*M','M',start)
+	    aminoacids = translateSequence(start)
         outfile2.write(aminoacids + "\n")
 
 for line in infile3:
@@ -69,9 +66,9 @@ for line in infile3:
 	if line[0] == ">":
 	    outfile3.write(line + "\n")
 	else:
-	    start = re.sub(r1,"M",line,count=1)
-	    short = re.sub(r'.*M','M',start)
-        aminoacids = translateSequence(short)
+	    start = re.sub(r1,"ATG",line,count=1)
+	    #short = re.sub(r'.*M','M',start)
+	    aminoacids = translateSequence(start)
         outfile3.write(aminoacids + "\n")
 
 for line in infile4:
@@ -79,9 +76,9 @@ for line in infile4:
 	if line[0] == ">":
 	    outfile4.write(line + "\n")
 	else:
-	    start = re.sub(r1,"M",line,count=1)
-	    short = re.sub(r'.*M','M',start)
-        aminoacids = translateSequence(short)
+	    start = re.sub(r1,"ATG",line,count=1)
+	    #short = re.sub(r'.*M','M',start)
+	    aminoacids = translateSequence(start)
         outfile4.write(aminoacids + "\n")
 	
 infile1.close()
