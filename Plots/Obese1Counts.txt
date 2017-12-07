@@ -1,6 +1,6 @@
-2 Obese1 Gsta2
-16 Obese1 Slc7a12
-20 Obese1 Tpra1
-38 Obese1 Ptpn5
-51 Obese1 Lhx2
-100 Obese1 Synpr
+2 Obese1 protein1.fasta
+16 Obese1 protein2.fasta
+20 Obese1 protein3.fasta
+38 Obese1 protein4.fasta
+51 Obese1 protein5.fasta
+100 Obese1 protein6.fasta
