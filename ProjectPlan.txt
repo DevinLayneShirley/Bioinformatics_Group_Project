@@ -3,24 +3,51 @@ Group members: Devin Shirley, Madison Karlin, Katherine Koczwara, Melissa Stephe
 1) Blast uniquetranscripts.fasta (nucleotide collection)
 	Default highly similar sequence
 	Save and download descriptions for table of hits to repo
+		-To be completed the first day by Katherine (Mon Nov 27)
 
 2) Using unix, make a table that include the top hit for each transcript (6)
 	Choose with highest percent identity and highest max score
+		-To be completed the first day by Katherine (Mon Nov 27)
+			-Both Psuedocode and Functional code
 
 3) Search NCBI protein database
-	filter by taxon
+	filter by taxon (do both rodent, primate, and nonmammal DNA at this step for further exploration problem) 
 	Choose 10-20 protein sequences
 	Create 1 fasta file per transcript (6)
+		-To be completed by wednesday nov 29 by Devin
 
 4) Write a script that translates RNAseq data to amino acid data
 	output fasta file
 	list of amino acids for each transcript
+		-to be completed by friday december 1 by Madison and Katerine
+			-Katherine Psuedocode
+			-Madison Functional Code 
 
-5) Build a HMM of the 6 transcript proteins
-	Muscle alignment --> hmmbuild --> hmmsearch
+5) Build a HMM of the 6 transcript proteins, search translated RNAseq files
+	Muscle alignment --> hmmbuild --> hmmmodel
+	hmmsearch RNAseq + hmmmodel 
 	use bash script to loop over files
+		-to be completed by monday december 4 by Devin
+			-Both Psuedo and Functional Code
 
 6) Graphically compare expression levels across groups
 	Qualitatively compare results to Kuhns & Pluznick 2017
+		-To be completed by wednesday december 6 by Melissa
+			-Both Psuedo and Functional Code
+		-Additional graph (not required) to be added by devin
+			-Both Psuedo and functional code
+
+Further Exploration Questions
+	Question1. To be completed by Devin by Wednesday December 6
+	Question2. To be completed by Melissa by Wednesday December 6
+
+Additional Tasks:
+Keep repository cleaned and organized: Devin
+Continually update project summary: All
+	-Keep it organized and make sure the information flows correctly: Melissa 
+Check each script for comments: All 
+Peer Review of other groups: All 
+
+Meeting times: We will meet during each class time, the day before the group review, and the day before it is submitted to make sure everything works. 
 
 
