@@ -11,10 +11,10 @@ infile2 = open("control2.fasta","r")
 infile3 = open("obese1.fasta","r")
 infile4 = open("obese2.fasta","r")
 codonmap = open("codonmap.txt","r")
-outfile1 = open("control1_protein","w")
-outfile2 = open("control2_protein","w")
-outfile3 = open("obese1_protein","w")
-outfile4 = open("obese2_protein","w")
+outfile1 = open("control1.protein","w")
+outfile2 = open("control2.protein","w")
+outfile3 = open("obese1.protein","w")
+outfile4 = open("obese2.protein","w")
 
 #create a dictionary using the codon map
 d = {}
@@ -40,7 +40,7 @@ def translateSequence(sequence):
 	aaString = ''
 	for codon in codons:
 		if translateCodon(codon) == 'Stop':
-			return aaString
+			break
 		else:
 			aaString += translateCodon(codon)
 	return aaString
