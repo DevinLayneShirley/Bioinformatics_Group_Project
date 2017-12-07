@@ -17,8 +17,8 @@ O1data.columns=['Count','sample','Model']
 O2data.columns=['Count','sample','Model']
 
 #create histogram plots
-ggplot(C1data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Control1 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
-ggplot(C2data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Control2 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
-ggplot(O1data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Obese1 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
-ggplot(O2data,aes(x='Model',y='Count'))+geom_col(size=20)+ggtitle('Obese2 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(C1data,aes(x='Model',y='Count'))+geom_col(size=20)+geom_col(color='lightcoral',fill='lightcoral')+ggtitle('Control1 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(C2data,aes(x='Model',y='Count'))+geom_col(size=20)+geom_col(color='palegreen',fill='palegreen')+ggtitle('Control2 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(O1data,aes(x='Model',y='Count'))+geom_col(size=20)+geom_col(color='paleturquoise',fill='paleturquoise')+ggtitle('Obese1 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
+ggplot(O2data,aes(x='Model',y='Count'))+geom_col(size=20)+geom_col(color='plum',fill='plum')+ggtitle('Obese2 Transcript Counts')+ theme ( axis_text_x = element_text ( angle = 90 ))
 
