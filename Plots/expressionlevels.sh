@@ -1,3 +1,4 @@
+#lists the number of hits for a protein for each treatment, the output of this can be copied into excel to generate a table 
 cat control1.protein.hits.table_nonmammalian | grep -v '#' | grep -c 'protein1'
 cat control1.protein.hits.table_nonmammalian | grep -v '#' | grep -c 'protein2'
 cat control1.protein.hits.table_nonmammalian | grep -v '#' | grep -c 'protein3'
