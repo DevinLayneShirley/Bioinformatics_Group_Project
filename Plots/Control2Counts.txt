@@ -1,6 +1,6 @@
-20 Control2 protein1.fasta
-20 Control2 protein2.fasta
-20 Control2 protein3.fasta
-20 Control2 protein4.fasta
-20 Control2 protein5.fasta
-20 Control2 protein6.fasta
+20 Control2 Gsta2
+20 Control2 Slc7a12
+20 Control2 Tpra1
+20 Control2 Ptpn5
+20 Control2 Lhx2
+20 Control2 Synpr
